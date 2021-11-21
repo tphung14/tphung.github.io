@@ -26,7 +26,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 
 ```
-#test
+# Test
 
 ![statimage](https://github.com/tphung14/tphung.github.io/blob/gh-pages/docs/assets/Figure_1.png)
 
