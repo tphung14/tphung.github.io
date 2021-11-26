@@ -1,8 +1,7 @@
-## Welcome to GitHub Pages
+## Data Analysis of Steam(PC) Player Counts by Genres 
+### Description
 
-You can use the [editor on GitHub](https://github.com/tphung14/tphung.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+To figure out which video game genres that players are more interested in to give an idea for developers which genre they should choose. My solution is to pick a genre that appears to have a healthy amount of average and peak players that are interested in the genre.
 
 ### Markdown
 
