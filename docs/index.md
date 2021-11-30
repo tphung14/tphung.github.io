@@ -6,9 +6,10 @@ To figure out which video game genres that players are more interested in to giv
 ### Data Collection 
 Datasets are obtained from the website Kaggle - a community of data scientists that publishes datasets to use.
 I only needed to make a free account to obtain these relevant datasets to use.
+```
 https://www.kaggle.com/jackogozaly/steam-player-data 
 https://www.kaggle.com/nikdavis/steam-store-games
-
+```
 ### Analysis 
 Analyzed the total average players in 8 different genres:
 ```
