@@ -11,6 +11,7 @@ https://www.kaggle.com/nikdavis/steam-store-games
 
 ### Analysis 
 Analyzed the total average players in 8 different genres:
+```
 Action
 Adventure
 Other
@@ -19,7 +20,7 @@ Racing
 Simulation
 Sports
 Strategy
-
+```
 
 # Visualization
 
