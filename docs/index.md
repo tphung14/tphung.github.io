@@ -10,7 +10,7 @@ I only needed to make a free account to obtain these relevant datasets to use.
 https://www.kaggle.com/jackogozaly/steam-player-data 
 https://www.kaggle.com/nikdavis/steam-store-games
 ```
-### Analysis 
+### Analysis(WIP)
 Analyzed the total average players in 8 different genres:
 ```
 Action
@@ -23,7 +23,7 @@ Sports
 Strategy
 ```
 
-# Visualization
+# Visualization(WIP)
 
 ![statimage](assets/Figure_1.png)
 
