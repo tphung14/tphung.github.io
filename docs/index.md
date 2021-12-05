@@ -10,20 +10,20 @@ I only needed to make a free account to obtain these relevant datasets to use.
 https://www.kaggle.com/jackogozaly/steam-player-data 
 https://www.kaggle.com/nikdavis/steam-store-games
 ```
-### Analysis(WIP)
-Analyzed the total average players in 8 different genres:
+### Analysis
+Analyzed the total average/peak players and the average/peak players over months(from 2012 to 2021)in Steam in 8 different genres:
 ```
-Action
-Adventure
-Other
-RPG
-Racing
-Simulation
-Sports
-Strategy
+Action- Emphasizes physical challenges and battling enemies with weapons/tools.
+Adventure- Emphasizes a story focused approach driven by exploration and puzzle solving.
+Other- Games that don't neatly fit into other genres - usually experimental indie games.
+RPG- Emphasizes character development of a single or multiple player controlled characters in a immersive world.
+Racing- Emphasizes racing competitions in real or fictional worlds.
+Simulation- Video games that attempt to closely mirror real life activities.
+Sports- Emphasizes the practice of sports.
+Strategy- Emphasizes planning and managing a group in a usually non-first person setting.
 ```
 
-# Visualization(WIP)
+### Visualization(WIP)
 
 ![statimage](assets/Figure_1.png)
 
