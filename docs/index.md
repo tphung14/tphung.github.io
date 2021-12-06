@@ -1,14 +1,13 @@
 ## Data Analysis of Steam(PC) Player Counts by Genres 
-### Description
+### Overview
 
-To figure out which video game genres that players are more interested in to give an idea for developers which genre they should choose. My solution is to pick a genre that appears to have a healthy amount of average and peak players that are interested in the genre.
+My goal for this project is to analyze genres by their player counts to see which genre is the most successful. To do this, I decided to focus using datasets that are based on Steam, a computer gaming service. While it does not include mobile or console systems, PC gaming is very popular so I believe it is a good sample to draw conclusions from. Using those datasets I then use python and python libraries like pandas, pandasql, pyplot and seaborn to achieve the desired analysis and visualization.
 
-### Data Collection 
-Datasets are obtained from the website Kaggle - a community of data scientists that publishes datasets to use.
-I only needed to make a free account to obtain these relevant datasets to use.
+###Data
 ```
-https://www.kaggle.com/jackogozaly/steam-player-data 
-https://www.kaggle.com/nikdavis/steam-store-games
+Datasets:
+steam_charts.csv - This dataset was obtained from the website Kaggle. The dataset contains about 52337 rows in total. Each row contains the Game name, the number of average players and peak players, the month the row was recorded on, the gains recorded and the gain percentage compared to last to last month's gains. For my project only the Game name, the number of average players and peak players and the month are relevant.
+steam.csv - This dataset was obtained from the website Kaggle. The dataset contains about 27076 rows in total. This particular dataset contains multiple columns, such as appid, name, release_date, english, developer, publisher, platforms, required_age, catagories, genres, steamspy_tags, achievements and more. For my project only two columns are relevant, genres and name. 
 ```
 ### Analysis
 Analyzed the total average/peak players and the average/peak players over months(from 2012 to 2021)in Steam in 8 different genres:
@@ -41,4 +40,10 @@ Strategy- Emphasizes planning and managing a group in a usually non-first person
 
 ![statimage](assets/Figure_8.png)
 
+### Citations 
+```
+Datasets:
 
+https://www.kaggle.com/jackogozaly/steam-player-data 
+https://www.kaggle.com/nikdavis/steam-store-games
+```
