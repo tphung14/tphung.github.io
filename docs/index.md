@@ -31,9 +31,13 @@ By using pandasql, the two datasets are joined together through steam_charts 'Ga
 
 ![statimage](assets/Figure_2.png)
 
+Here we can see on the normal TotalPeakPlayer bargraph and the log scaled bargraph, action holds the highest amount of peak players by a wide margin. Simulation is a distant second and RPG in third place. The rest of the genres' peak player sizes are comparatively small, which is illustrative of how dominant the action genre is.
+
 ![statimage](assets/Figure_3.png)
 
 ![statimage](assets/Figure_4.png)
+
+The TotalAveragePlayers bargraphs follows similarly to the TotalPeakPlayers bargraphs. It confirms that action maintains the highest player count out of all the genres.
 
 ![statimage](assets/Figure_5.png)
 
