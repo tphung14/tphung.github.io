@@ -25,7 +25,7 @@ Strategy- Emphasizes planning and managing a group in a usually non-first person
 ```
 
 ### Technique
-By using pandasql, the two datasets are joined together through steam_charts 'Game' and steam 'name', selecting Game, Month, Avg. Players, and Peak Players from steam_charts and selecting genres from steam. I then clean up the data dropping rows that don't fit like rows that has "Last 30 Days as their month and applying datetime to 'Month' in YYYY-MM-DD format. Continuing with the clean up some columns are aliased like "Avg. Players" is now AveragePlayers and a helper function is used to clean up genres removing redundant genres that were too specific or vague. To begin with the analysis, four functions were created. To obtain the player count of average players over months, panda aggregate functions are used, summing 'AveragePlayers' and grouping it by their Genre and Month. To obtain the player count of peak players over months, a similar function is used where instead of summing 'AveragePlayers' it is summing 'PeakPlayers'. To obtain the total player count of average players and peak players a pandasql query is used, selecting SUM(AveragePlayers) as TotalAveragePlayers and SUM(PeakPlayers) as TotalPeakPlayers which are then grouped by Genre. The visualization of these functions are shown below.
+By using pandasql, the two datasets are joined together through steam_charts 'Game' and steam 'name', selecting Game, Month, Avg. Players, and Peak Players from steam_charts and selecting genres from steam. I then clean up the data dropping rows that don't fit like rows that has "Last 30 Days as their month and applying datetime to 'Month' in YYYY-MM-DD format. Month is now used to Continuing with the clean up some columns are aliased like "Avg. Players" is now AveragePlayers and a helper function is used to clean up genres removing redundant genres that were too specific or vague. To begin with the analysis, four functions were created. To obtain the player count of average players over months, panda aggregate functions are used, summing 'AveragePlayers' and grouping it by their Genre and Month. To obtain the player count of peak players over months, a similar function is used where instead of summing 'AveragePlayers' it is summing 'PeakPlayers'. To obtain the total player count of average players and peak players a pandasql query is used, selecting SUM(AveragePlayers) as TotalAveragePlayers and SUM(PeakPlayers) as TotalPeakPlayers which are then grouped by Genre. The visualization of these functions are shown below.
 
 ![statimage](assets/Figure_1.png)
 
@@ -43,9 +43,15 @@ The TotalAveragePlayers bargraphs follows similarly to the TotalPeakPlayers barg
 
 ![statimage](assets/Figure_6.png)
 
+The Peak Players logscaled and normal lineplots show how each genre maintains(and grow) the player count over the months, from a 2012-2021 period. Once again action takes the first spot having the highest player count in each month, and by the log scaled line plot having a steady growth. Though generally, it appears that most genres's player count are growing, with noticable spikes. 
+
 ![statimage](assets/Figure_7.png)
 
 ![statimage](assets/Figure_8.png)
+
+The Average Players lineplots also follow a similar pattern to the Peak Players lineplots, drawing the same conclusions with each genres. 
+
+All in all, my analysis of these visualizations shows that genres are growing, most not dropping below their initial 2012 numbers by 2021. However action noticably has the healthiest and largest player count out of all the genres. 
 
 ### Citations 
 ```
