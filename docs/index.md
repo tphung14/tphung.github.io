@@ -23,7 +23,8 @@ Sports- Emphasizes the practice of sports.
 Strategy- Emphasizes planning and managing a group in a usually non-first person setting.
 ```
 
-### Visualization(WIP)
+### Technique
+By using pandasql, the two datasets are joined together through steam_charts 'Game' and steam 'name', selecting Game, Month, Avg. Players, and Peak Players from steam_charts and selecting genres from steam. I then clean up the data dropping rows that don't fit like rows that has "Last 30 Days as their month and applying datetime to 'Month' in YYYY-MM-DD format. Continuing with the clean up some columns are aliased like "Avg. Players" is now AveragePlayers and a helper function is used to clean up genres removing redundant genres that were too specific or vague. To begin with the analysis, four functions were created. To obtain the player count of average players over months, panda aggregate functions are used, summing 'AveragePlayers' and grouping it by their Genre and Month. To obtain the player count of peak players over months, a similar function is used where instead of summing 'AveragePlayers' it is summing 'PeakPlayers'. To obtain the total player count of average players and peak players a pandasql query is used, selecting SUM(AveragePlayers) as TotalAveragePlayers and SUM(PeakPlayers) as TotalPeakPlayers which are then grouped by Genre. The visualization of these functions are shown below.
 
 ![statimage](assets/Figure_1.png)
 
