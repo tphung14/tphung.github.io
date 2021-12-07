@@ -1,4 +1,5 @@
 ## Data Analysis of Steam(PC) Player Counts by Genres 
+![statimage](assets/logo.png)
 ### Overview
 
 My goal for this project is to analyze genres by their player counts to see which genre is the most successful. To do this, I decided to focus using datasets that are based on Steam, a computer gaming service. While it does not include mobile or console systems, PC gaming is very popular so I believe it is a good sample to draw conclusions from. Using those datasets I then use python and python libraries like pandas, pandasql, pyplot and seaborn to achieve the desired analysis and visualization.
