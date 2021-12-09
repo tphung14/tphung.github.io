@@ -59,4 +59,10 @@ Datasets:
 
 https://www.kaggle.com/jackogozaly/steam-player-data 
 https://www.kaggle.com/nikdavis/steam-store-games
+
+Resources:
+
+https://www.w3schools.com/sql/
+https://pandas.pydata.org/docs/reference/frame.html
+https://seaborn.pydata.org/api.html
 ```
